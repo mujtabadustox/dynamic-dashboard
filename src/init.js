@@ -1,0 +1,156 @@
+const widgetsArray = [
+  {
+    id: 1,
+    title: "",
+    type: "pie",
+    order: 2,
+    position: { row: "span 3", width: 400, height: 400 },
+    priority: 2,
+    data: {
+      labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+      datasets: [
+        {
+          label: "# of Votes",
+          data: [12, 19, 3, 5, 2, 3],
+          backgroundColor: [
+            "rgba(255, 99, 132, 0.2)",
+            "rgba(54, 162, 235, 0.2)",
+            "rgba(255, 206, 86, 0.2)",
+            "rgba(75, 192, 192, 0.2)",
+            "rgba(153, 102, 255, 0.2)",
+            "rgba(255, 159, 64, 0.2)",
+          ],
+          borderColor: [
+            "rgba(255, 99, 132, 1)",
+            "rgba(54, 162, 235, 1)",
+            "rgba(255, 206, 86, 1)",
+            "rgba(75, 192, 192, 1)",
+            "rgba(153, 102, 255, 1)",
+            "rgba(255, 159, 64, 1)",
+          ],
+          borderWidth: 1,
+        },
+      ],
+    },
+  },
+  {
+    id: 2,
+    title: "",
+    type: "doughnut",
+    order: 2,
+    position: { row: 4, col: 3, width: 400, height: 400 },
+    data: {
+      labels: ["Java", "JavaScript", "Python", "C++", "Typescript", "CSS"],
+      datasets: [
+        {
+          label: "% of use",
+          data: [40, 44, 3, 6, 1, 2],
+          backgroundColor: [
+            "rgba(255, 99, 132, 0.2)",
+            "rgba(54, 162, 235, 0.2)",
+            "rgba(255, 206, 86, 0.2)",
+            "rgba(75, 192, 192, 0.2)",
+            "rgba(153, 102, 255, 0.2)",
+            "rgba(255, 159, 64, 0.2)",
+          ],
+          borderColor: [
+            "rgba(255, 99, 132, 1)",
+            "rgba(54, 162, 235, 1)",
+            "rgba(255, 206, 86, 1)",
+            "rgba(75, 192, 192, 1)",
+            "rgba(153, 102, 255, 1)",
+            "rgba(255, 159, 64, 1)",
+          ],
+          borderWidth: 1,
+        },
+      ],
+    },
+    priority: 3,
+  },
+  {
+    id: 3,
+    title: "Revenue",
+    type: "numeric",
+    order: 1,
+    position: { width: 300, height: 110 },
+    data: 1111111,
+    priority: 1,
+  },
+  {
+    id: 4,
+    title: "Sales",
+    type: "numeric",
+    order: 1,
+    position: { row: "2/2", width: 300, height: 110 },
+    data: 3434,
+    priority: 1,
+  },
+  {
+    id: 5,
+    title: "Profit",
+    type: "numeric",
+    order: 1,
+    position: { width: 300, height: 110 },
+    data: "123",
+    priority: 1,
+  },
+  {
+    id: 6,
+    title: "Increment",
+    type: "numeric",
+    order: 1,
+    position: { row: "2/2", width: 300, height: 110 },
+    data: 324324,
+    priority: 1,
+  },
+  {
+    id: 7,
+    title: "",
+    type: "line",
+    order: 3,
+    position: { row: "span 2", col: "span 2", width: 300, height: 600 },
+    data: {
+      labels: ["January", "February", "March", "April", "May", "June", "July"],
+      datasets: [
+        {
+          label: "Dataset 1",
+          data: [-758, -849, -848, -623, 227, 292, -316],
+          borderColor: "rgb(255, 99, 132)",
+          backgroundColor: "rgba(255, 99, 132, 0.5)",
+        },
+        {
+          label: "Dataset 2",
+          data: [935, 714, -310, -794, -489, 710, -316],
+          borderColor: "rgb(53, 162, 235)",
+          backgroundColor: "rgba(53, 162, 235, 0.5)",
+        },
+      ],
+    },
+    priority: 4,
+  },
+  {
+    id: 8,
+    title: "",
+    type: "bar",
+    order: 4,
+    position: { row: "span 2", col: "span 3", width: 300, height: 600 },
+    data: {
+      labels: ["January", "February", "March", "April", "May", "June", "July"],
+      datasets: [
+        {
+          label: "Dataset 1",
+          data: [475, 847, 704, 964, 414, 847, 434],
+          backgroundColor: "rgba(255, 99, 132, 0.5)",
+        },
+        {
+          label: "Dataset 2",
+          data: [676, 843, 933, 475, 314, 415, 441],
+          backgroundColor: "rgba(53, 162, 235, 0.5)",
+        },
+      ],
+    },
+    priority: 2,
+  },
+];
+
+export default widgetsArray;
