@@ -73,7 +73,7 @@ const widgetsArray = [
     type: "numeric",
     order: 1,
     position: { width: 300, height: 110 },
-    data: 1111111,
+    data: 785000,
     priority: 1,
   },
   {
@@ -82,7 +82,7 @@ const widgetsArray = [
     type: "numeric",
     order: 1,
     position: { row: "2/2", width: 300, height: 110 },
-    data: 3434,
+    data: 654000,
     priority: 1,
   },
   {
@@ -91,7 +91,7 @@ const widgetsArray = [
     type: "numeric",
     order: 1,
     position: { width: 300, height: 110 },
-    data: "123",
+    data: "250000",
     priority: 1,
   },
   {
@@ -100,7 +100,7 @@ const widgetsArray = [
     type: "numeric",
     order: 1,
     position: { row: "2/2", width: 300, height: 110 },
-    data: 324324,
+    data: 987000,
     priority: 1,
   },
   {

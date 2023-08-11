@@ -7,7 +7,7 @@ const Header = () => {
   const name = session?.data?.user?.email.split("@")[0];
   return (
     <>
-      <div className="flex flex-row bg-white text-black h-[50px] rounded-lg p-2.5 justify-between">
+      <div className="flex flex-row bg-white text-black h-[50px] rounded-lg px-1.5 py-2.5 justify-between">
         <p className="flex font-bold">Welcome {name} !! </p>
         <div className="flex ml-[50px]">
           <input
