@@ -133,7 +133,7 @@ const widgetsArray = [
     title: "",
     type: "bar",
     order: 4,
-    position: { row: "span 2", col: "span 3", width: 300, height: 600 },
+    position: { row: "span 2", col: "span 3", width: 300, height: 650 },
     data: {
       labels: ["January", "February", "March", "April", "May", "June", "July"],
       datasets: [
