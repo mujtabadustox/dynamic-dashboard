@@ -31,21 +31,3 @@ export const POST = async (request) => {
     });
   }
 };
-
-export const GET = async (request) => {
-  const url = new URL(request.url);
-
-  const email = url.searchParams.get("email");
-
-  console.log("AAA", email);
-
-  try {
-    await connect();
-
-    const user = await User.find(email && { email });
-
-    return new NextResponse(JSON.stringify(user), { status: 200 });
-  } catch (err) {
-    return new NextResponse("Db Error", { status: 500 });
-  }
-};
